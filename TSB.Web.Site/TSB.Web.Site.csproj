@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>dfce02fb-bc05-40a8-b69a-84f638e0ea23</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,13 +13,12 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="wwwroot\images\logo.svg" />
-  </ItemGroup>
   <ItemGroup>
     <Content Update="wwwroot\images\banner1.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\logo.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 </Project>
