@@ -2,72 +2,15 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Challenge app.
-                    <a class="btn btn-default" href="https://crtsms.azurewebsites.net/">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+<div class="jumbotron" style="margin-top:20px;">
+    <h1>Welcome</h1>
+    <p>This is a personal website for TS Brothers showing our projects we are working on. Feel free to test the live demos and download the source on our GitHub.</p>
 </div>
 
 <div class="row">
     <div class="col-md-3">
         <h2><a href="https://crtsms.azurewebsites.net/">Challenge App</a></h2>
+        <span class="label label-success">Done</span>
         <ul>
             <li>Remote validation of properties of model</li>
             <li>Async action methods</li>
@@ -75,10 +18,12 @@
             <li>Load multiple partial view, in same page, with asynchronous operations</li>
             <li>Use Model, ModelView, View and Controller</li>
             <li>Use POCO Entities</li>
+            <li>Source on <a href="https://github.com/crtsms/Challenge">GitHub</a></li>
         </ul>
     </div>
     <div class="col-md-3">
         <h2>Medicines</h2>
+        <span class="label label-warning">Developing</span>
         <ul>
             <li>Search the prices for drugs in Brazil</li>
             <li><a href="http://portal.anvisa.gov.br/listas-de-precos">Anvisa</a> based prices</li>
@@ -87,6 +32,7 @@
     </div>
     <div class="col-md-3">
         <h2>XML TISS</h2>
+        <span class="label label-warning">Developing</span>
         <ul>
             <li>XML TISS schema validator</li>
             <li>Providing all information for XML on beaultiful way</li>
@@ -95,6 +41,7 @@
     </div>
     <div class="col-md-3">
         <h2>TISS Gen</h2>
+        <span class="label label-danger">Not started</span>
         <ul>
             <li>Generating XML to billing the insurance company</li>
             <li>Totally free for unsaved files on the server</li>
