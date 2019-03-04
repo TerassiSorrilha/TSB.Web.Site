@@ -5,16 +5,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 192 36"
-   enable-background="new 0 0 1140 360"
-   version="1.1"
-   id="svg3753"
-   sodipodi:docname="logo.svg"
-   width="160"
    height="30"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   width="160"
+   id="svg3753"
+   version="1.1"
+   enable-background="new 0 0 1140 360"
+   viewBox="0 0 192 36">
   <metadata
      id="metadata3759">
     <rdf:RDF>
@@ -29,47 +25,53 @@
   </metadata>
   <defs
      id="defs3757" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1551"
-     inkscape:window-height="800"
-     id="namedview3755"
-     showgrid="false"
-     inkscape:snap-page="false"
-     inkscape:snap-to-guides="false"
-     inkscape:snap-grids="false"
-     showguides="false"
-     scale-x="1.2"
-     inkscape:pagecheckerboard="true"
-     inkscape:zoom="4.8140349"
-     inkscape:cx="111.59093"
-     inkscape:cy="15.839922"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3753" />
   <path
-     d="M -0.14134651,0.15397298 H 191.88052 V 36.350746 H -0.14134651 Z"
-     id="path3749"
      style="fill:#4f5f6f;fill-opacity:1;stroke-width:0.13013875"
-     inkscape:connector-curvature="0" />
-  <text
-     xml:space="preserve"
+     id="path3749"
+     d="M -0.14134651,0.15397298 H 191.88052 V 36.350746 H -0.14134651 Z" />
+  <g
+     id="text3763"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-     x="2.0588782"
-     y="33.629406"
-     id="text3763"><tspan
-       sodipodi:role="line"
-       id="tspan3761"
-       x="2.0588782"
-       y="33.629406">TS <tspan
-   style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
-   id="tspan4572">Brothers</tspan></tspan></text>
+     aria-label="TS Brothers">
+    <path
+       id="path815"
+       style=""
+       d="m 11.378878,31.949406 h 3.12 v -24.16 h 8.2 v -2.68 H 3.1788782 v 2.68 h 8.1999998 z" />
+    <path
+       id="path817"
+       style=""
+       d="m 33.055753,32.429406 c 6.28,0 9,-3.12 9,-7.8 0,-4.52 -2.52,-6.2 -6.48,-7.56 l -2.64,-0.84 c -3.04,-1.04 -4,-2.16 -4,-4.72 0,-2.56 1.84,-4.16 5.12,-4.16 2.96,0 5.08,0.76 6.64,1.48 v -2.68 c -1.48,-0.72 -3.36,-1.48 -6.52,-1.48 -5.6,0 -8.36,2.96 -8.36,7.12 0,4.08 2.12,6 5.88,7.24 l 2.6,0.92 c 3.24,1.04 4.56,2.16 4.56,4.92 0,2.92 -1.8,4.84 -5.92,4.84 -2.84,0 -5.48,-0.72 -7.52,-1.76 v 2.68 c 1.8,1 4.36,1.8 7.64,1.8 z" />
+    <path
+       id="path819"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 58.198878,31.669406 h 8.52 c 5.28,0 8.08,-2.56 8.08,-7.2 0,-4.72 -3.4,-6.28 -6.44,-6.52 v -0.04 c 2.8,-0.52 5.08,-2.48 5.08,-6.2 0,-4.28 -2.36,-6.36 -7.88,-6.36 h -7.36 z m 1.04,-0.92 v -12.24 h 6.64 c 4.88,0 7.84,1.56 7.84,5.92 0,4.32 -2.4,6.32 -7.04,6.32 z m 0,-13.16 v -11.28 h 6.32 c 4.84,0 6.84,1.64 6.84,5.52 0,3.88 -2.88,5.76 -6.72,5.76 z" />
+    <path
+       id="path821"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 80.375128,31.749406 h 1.04 v -15.68 c 1.36,-1.52 3.52,-2.72 5.96,-2.72 0.36,0 0.8,0.08 1.12,0.16 v -0.92 c -0.24,-0.08 -0.68,-0.12 -1.08,-0.12 -2.6,0 -4.76,1.36 -5.96,2.64 h -0.08 v -2.44 h -1 z" />
+    <path
+       id="path823"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 100.1895,32.029406 c 4.68,0 8.32,-3.28 8.32,-9.72 v -0.36 c 0,-6.44 -3.44,-9.56 -8.32,-9.56 -4.639997,0 -8.279997,3.24 -8.279997,9.64 v 0.44 c 0,6.44 3.4,9.56 8.279997,9.56 z m 0,-0.84 c -4.279997,0 -7.319997,-2.72 -7.319997,-8.64 v -0.56 c 0,-5.76 3.08,-8.76 7.319997,-8.76 4.28,0 7.36,2.52 7.36,8.64 v 0.52 c 0,5.88 -3.08,8.8 -7.36,8.8 z" />
+    <path
+       id="path825"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 118.97638,31.909406 c 1.24,0 2.32,-0.36 2.88,-0.56 v -0.8 c -0.76,0.24 -1.76,0.44 -2.68,0.44 -2.52,0 -3.24,-0.88 -3.24,-3 v -14.44 h 5.52 v -0.92 h -5.52 v -4.52 h -1 v 4.52 h -2.88 v 0.92 h 2.88 v 14.6 c 0,2.48 1.28,3.76 4.04,3.76 z" />
+    <path
+       id="path827"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 126.70513,31.629406 h 1 v -16.28 c 2.32,-1.44 4.8,-2.16 7.12,-2.16 3.36,0 4.88,1.12 4.88,4.28 v 14.16 h 1 v -14.36 c 0,-3.56 -2,-4.96 -5.52,-4.96 -2.4,0 -5.08,0.72 -7.44,2.16 h -0.04 v -10.84 h -1 z" />
+    <path
+       id="path829"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 154.65575,32.029406 c 2.76,0 4.8,-0.64 5.96,-1.32 v -0.76 c -1.28,0.56 -3.28,1.2 -5.84,1.2 -5.48,0 -8,-2.92 -8,-8.68 v -0.68 h 14.56 v -0.48 c 0,-5.56 -2.24,-8.92 -7.36,-8.92 -4.56,0 -8.2,3.08 -8.2,9.64 v 0.44 c 0,6.28 2.96,9.56 8.88,9.56 z m -0.72,-18.8 c 4.4,0 6.32,2.92 6.32,7.72 h -13.44 c 0.32,-5.24 3.32,-7.72 7.12,-7.72 z" />
+    <path
+       id="path831"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 166.31263,31.749406 h 1.04 v -15.68 c 1.36,-1.52 3.52,-2.72 5.96,-2.72 0.36,0 0.8,0.08 1.12,0.16 v -0.92 c -0.24,-0.08 -0.68,-0.12 -1.08,-0.12 -2.6,0 -4.76,1.36 -5.96,2.64 h -0.08 v -2.44 h -1 z" />
+    <path
+       id="path833"
+       style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo Thin';fill:#ffffff;fill-opacity:1"
+       d="m 183.527,32.029406 c 4.56,0 6.28,-2.28 6.28,-5.08 0,-3.2 -1.64,-4.28 -4.84,-5.24 l -2.32,-0.68 c -2.72,-0.84 -3.68,-1.8 -3.68,-4.12 0,-2.2 1.6,-3.64 4.88,-3.64 1.84,0 3.68,0.48 5,1.12 v -0.84 c -1.04,-0.6 -2.68,-1.16 -5.08,-1.16 -3.8,0 -5.76,1.84 -5.76,4.56 0,2.88 1.36,4.12 4.28,4.92 l 2.32,0.72 c 3,0.84 4.2,1.76 4.2,4.4 0,2.32 -1.32,4.16 -5.36,4.16 -2.68,0 -4.32,-0.64 -5.8,-1.36 v 0.88 c 1.28,0.68 3.24,1.36 5.88,1.36 z" />
+  </g>
 </svg>
