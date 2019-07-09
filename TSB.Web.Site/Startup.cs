@@ -47,7 +47,7 @@ namespace TSB.Web.Site
             //set the persistence to azure storage
             services.AddFluffySpoonLetsEncryptAzureAppServiceSslBindingCertificatePersistence(
                 new AzureOptions(){
-                    ResourceGroupName = System.Environment.GetEnvironmentVariable("WEBSITE_RESOURCE_GROUP"),
+                    ResourceGroupName = "TSBrothers",
                     Credentials = managedIdentityCredentials
                 }
             );
