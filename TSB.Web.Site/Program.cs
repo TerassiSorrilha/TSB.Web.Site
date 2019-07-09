@@ -1,5 +1,4 @@
-﻿using FluffySpoon.AspNet.LetsEncrypt;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
 namespace TSB.Web.Site
@@ -14,8 +13,6 @@ namespace TSB.Web.Site
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseKestrel(kestrelOptions  => kestrelOptions.ConfigureHttpsDefaults(
-                    httpsOptions => httpsOptions.ServerCertificateSelector = (c, s) => LetsEncryptRenewalService.Certificate))
                 .UseUrls("http://" + DomainToUse, "https://" + DomainToUse)
                 .UseStartup<Startup>();
     }
