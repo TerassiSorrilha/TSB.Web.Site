@@ -47,13 +47,13 @@ namespace TSB.Web.Site
             //set the persistence to azure storage
             services.AddFluffySpoonLetsEncryptAzureAppServiceSslBindingCertificatePersistence(
                 new AzureOptions(){
-                    ResourceGroupName = "TSBrothers",
+                    ResourceGroupName = System.Environment.GetEnvironmentVariable("WEBSITE_RESOURCE_GROUP"),
                     Credentials = managedIdentityCredentials
                 }
             );
 
             //persist the certificate to a file
-            //services.AddFluffySpoonLetsEncryptFileCertificatePersistence();            
+            services.AddFluffySpoonLetsEncryptFileCertificatePersistence();            
 
             //persist challenges in-memory. challenges are the "/.well-known" URL codes that LetsEncrypt will call.
             services.AddFluffySpoonLetsEncryptMemoryChallengePersistence();
