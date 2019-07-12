@@ -43,15 +43,15 @@ namespace TSB.Web.Site
             //app.UseHttpsRedirection();
 
             // Handle Lets Encrypt Route (before MVC processing!)
-            app.UseRouter(r =>
-            {
-                r.MapGet(".well-known/acme-challenge/{id}", async (request, response, routeData) =>
-                {
-                    var id = routeData.Values["id"] as string;
-                    var file = Path.Combine(env.WebRootPath, ".well-known","acme-challenge", id);
-                    await response.SendFileAsync(file);
-                });
-            });
+            // app.UseRouter(r =>
+            // {
+            //     r.MapGet(".well-known/acme-challenge/{id}", async (request, response, routeData) =>
+            //     {
+            //         var id = routeData.Values["id"] as string;
+            //         var file = Path.Combine(env.WebRootPath, ".well-known","acme-challenge", id);
+            //         await response.SendFileAsync(file);
+            //     });
+            // });
 
             app.UseMvc(routes =>
             {
