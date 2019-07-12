@@ -13,7 +13,6 @@ namespace TSB.Web.Site
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseUrls("http://" + DomainToUse, "https://" + DomainToUse)
                 .UseStartup<Startup>();
     }
 }

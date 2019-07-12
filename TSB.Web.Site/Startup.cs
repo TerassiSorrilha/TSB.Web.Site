@@ -30,9 +30,9 @@ namespace TSB.Web.Site
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
             app.UseHttpsRedirection();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();            
 
             // Handle Lets Encrypt Route (before MVC processing!)
             app.UseRouter(r =>
